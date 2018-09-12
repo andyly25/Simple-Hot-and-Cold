@@ -1,0 +1,8 @@
+{ 
+  "_comment1": "root tell Heroku serve production version",
+  "_comment2": "routes say all request to our route be routed to React app",
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  }
+}
